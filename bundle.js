@@ -77,7 +77,7 @@
 	  this.pies = [];
 	  this.junk = [];
 	  this.player = null;
-	  this.lives = 5;
+	  this.game.lives = 5;
 	};
 
 	Game.DIM_X = 1000;
@@ -172,7 +172,7 @@
 	const MovingObject = function(options) {
 	  this.pos = options.pos;
 	  this.vel = options.vel;
-	  this.radius = options.radius;
+	  this.radius = options.raadius;
 	  this.img = options.img;
 	};
 
@@ -264,7 +264,7 @@
 	const MovingObject = __webpack_require__(4);
 
 	const DEFAULTS = {
-	  RADIUS: 40,
+	  RADIUS: 25,
 	  SPEED: 4
 	};
 
